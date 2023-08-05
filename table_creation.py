@@ -43,10 +43,10 @@ def main():
     # *********************************************
     # Credentials to connect to Postgres database *
     # *********************************************
-    database="FILL_IN_BEFORE_USE"   
-    user='FILL_IN_BEFORE_USE'       
-    password='FILL_IN_BEFORE_USE' 
-    host='FILL_IN_BEFORE_USE'
+    database= 'FILL_IN_BEFORE_USE'
+    user= 'FILL_IN_BEFORE_USE'       
+    password= 'FILL_IN_BEFORE_USE' 
+    host= 'FILL_IN_BEFORE_USE'
     port= 'FILL_IN_BEFORE_USE'
 
     # ****************************************************************************************
