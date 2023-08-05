@@ -26,8 +26,8 @@ For creating the database, we create 2 files, 'table_creation.sql' and 'table_cr
   - 'table_creation.sql' contains the python code to connect to user's PostgreSQL database and execute the file 'table_creation.sql'. Users can run this file to create the tables within their databases.
 
 For populating the database with the data in the dataset, we split the task into several files:
-  - In folder 'data', 'modified_excel_tables.py' handles the data cleaning process and splits each sub_dataset in the dataset into a seperate csv file. 
-  - In folder 'code', 'table_creation.py' connects to user's PostgreSQL database and populates the tables in the database with CSV files created by the file 'modified_excel_tables.py' above. Users can run this file to populate the database
+  - In folder 'data', 'data_preprocessing.py' handles the data cleaning process and splits each sub_dataset in the dataset into a seperate csv file. 
+  - In folder 'code', 'table_creation.py' connects to user's PostgreSQL database and populates the tables in the database with CSV files created by the file 'data_preprocessing.py' above. Users can run this file to populate the database
 
 ## Analysis of the dataset
 10 problems
