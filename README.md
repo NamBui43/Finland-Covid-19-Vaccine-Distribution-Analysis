@@ -1,4 +1,4 @@
-# Finland-Vaccine-Distribution-Analysis
+## Finland-Vaccine-Distribution-Analysis
 Course project for Aalto University CS-A1155 - Databases for Data Science 2023.
 
 Implement a database system for managing production and distribution of vaccines.
