@@ -3,7 +3,7 @@ Course project for Aalto University CS-A1155 - Databases for Data Science 2023.
 
 Implement a database system for managing production and distribution of vaccines.
 
-Analyse vaccine distribution within the Finnish healthcare system using SQL queries and Python pandas library.
+Analysis of vaccine distribution within the Finnish healthcare system using SQL queries and Python pandas library.
 
 ## Introduction
 During the Covid pandemic, the global vaccination campaign necessitates the implementation of a robust and comprehensive database system which is capable of managing the complicated logistics of vaccine production and distribution. Furtheremore, adopting an efficient data-driven approach for the production and distribution of vaccines is crucial, as it shed lights on key patterns, bottlenecks, and opportunities for improvement in the supply chain. 
