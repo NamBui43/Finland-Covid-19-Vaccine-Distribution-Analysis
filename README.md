@@ -1,4 +1,4 @@
-# Finland-Vaccine-Distribution-Network
+# Finland-Vaccine-Distribution-Analysis
 Course project for CS-A1155 - Databases for Data Science.
 
 Implement a database system for managing production and distribution of vaccines.
