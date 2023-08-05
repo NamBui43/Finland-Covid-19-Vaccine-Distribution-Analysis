@@ -3,7 +3,7 @@ Course project for CS-A1155 - Databases for Data Science.
 
 Implement a database system for managing production and distribution of vaccines.
 
-Analyse Finland's vaccine distribution using SQL queries and Python pandas library.
+Analyse vaccine distribution within the Finnish healthcare system using SQL queries and Python pandas library.
 
 # Introduction
 The is the final project of Aalto University CS-A1155 - Databases for Data Science 2023. 
