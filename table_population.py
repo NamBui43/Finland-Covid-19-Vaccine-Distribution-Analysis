@@ -17,7 +17,7 @@ def main():
     user= 'FILL_IN_BEFORE_USE'       
     password= 'FILL_IN_BEFORE_USE' 
     host= 'FILL_IN_BEFORE_USE'
-    port=  'FILL_IN_BEFORE_USE'
+    port= 'FILL_IN_BEFORE_USE'
 
     # ****************************************************************************************
     # Establish the connection to Postgres and creating tables in the database with SQL file *
