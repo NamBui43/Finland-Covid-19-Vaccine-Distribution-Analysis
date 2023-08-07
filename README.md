@@ -29,7 +29,10 @@ For populating the database with the data in the dataset, we split the task into
   - In folder 'data', 'data_preprocessing.py' handles the data cleaning process and splits each sub_dataset in the dataset into a seperate csv file. 
   - In folder 'code', 'table_creation.py' connects to user's PostgreSQL database and populates the tables in the database with CSV files created by the file 'data_preprocessing.py' above. Users can run this file to populate the database
 
-## Analysis of the dataset
+We implemented the database using PostgreSQL instead of SQLite, as PostgreSQL DBMS is widely adopted in real-world projects, and offers
+broader control over the database
+
+## Analysis of the vaccine distribution within Finnish healthcare system
 10 problems
 
 
