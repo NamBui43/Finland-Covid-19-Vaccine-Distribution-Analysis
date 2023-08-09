@@ -29,7 +29,7 @@ For populating the database with the data in the dataset, we split the task into
   - In folder 'code', 'table_creation.py' connects to user's PostgreSQL database and populates the tables in the database with CSV files created by the file 'data_preprocessing.py' above. Users can run this file to populate the database
 
 ## Analysis of the vaccine distribution within Finnish healthcare system
-To analyze the dataset, we designed and solved 10 problems, each of which reveals different patterns and correlations in the distribution of Covid-19 vaccines within the Finnish healthcare system. The design of 10 problems can be accessed via ''. The code implementation for these problem can be accessed via ''
+To analyze the dataset, we designed and solved 10 problems, each of which reveals different patterns and correlations in the distribution of Covid-19 vaccines within the Finnish healthcare system. The code implementation for these problem can be accessed via 'data_analysis.ipynb' in folder 'data'.
 
 Problem 1: Create a dataframe for patients and symptoms containing the following columns: (1) ssNO, (2) gender, (3) dateOfBirth, (4)symptom, (5) diagnosisDate. Create a table named ”PatientSymptoms” using the command to sql with options index = True, if exists = "replace".
   -  Based on this dataframe, one can analyze patterns related to gender, age, symptoms reported, and the dates when these symptoms occurred
@@ -42,6 +42,33 @@ Problem 2: Create a dataframe for patients and vaccines containing the following
   - Vaccine types: one can study the distribution of vaccine types used for the first and second doses and assess any changes in the type of vaccine administered as a second dose.
   - Double-dose vaccination rate: one can calculate the double-does vaccination rate and observe any trends
 
+Problem 3: Create a dataframe using the table ”PatientSymptoms” and separate it into two dataframes, one for males and one for females.
+  -  One can see that for female patients, the most three frequent symptoms are muscle ache, headache, and feelings of illness
+  -  for male patients, the most frequent symptoms are joint pain, muscle ache, and fever
+
+Problem 4: Create a dataframe using table ”Patient” and add the
+”ageGroup” column for each patient. The age groups are
+”0-10”, ”10-20”, ”20-40”, ”40-60”, ”60+”.
+  -  One can examine the distribution of individuals across different age groups to understand the age demographics
+
+Problem 5: Using the same dataframe in problem 4, add a
+column describing each patient’s vaccination status. The
+statuses are defined as ”0” for not vaccinated, ”1” for
+vaccinated once, and ”2” for fully-vaccinated
+
+Problem 6: For each age group, calculate the percentage of people who
+have received zero, one, or two doses of vaccines. Show the
+results in a dataframe, where the index is the vaccination
+status from problem 5 and the columns are the age groups.
+  - Vaccination Rates by Age Group: one can calculate the percentage of individuals in each age group who have received different doses of vaccines This will help you understand the vaccination coverage within each age group
+  - Age Group with Highest/Lowest Vaccination: identify which age group has the highest and lowest vaccination rates based on the different doses received. This can help target vaccination campaigns
+
+Problem 7: Create a dataframe for symptoms with three additional columns: ’V01’, ’V02’, and ’V03’. The columns should tell the relative frequency of the symptom with the following values:
+
+≥ 0.1 ”very common”; 
+≥ 0.05 ”common”;
+> 0.0 ”rare”;
+0.0 ”-”
 
 
 
