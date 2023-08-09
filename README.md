@@ -27,7 +27,7 @@ For creating the database, we create 2 files, 'table_creation.sql' and 'table_cr
 For populating the database with the data in the dataset, we split the task into several files:
   - In folder 'data', 'data_preprocessing.py' handles the data cleaning process and splits each sub_dataset in the dataset into a seperate csv file. 
   - In folder 'code', 'table_creation.py' connects to user's PostgreSQL database and populates the tables in the database with CSV files created by the file 'data_preprocessing.py' above. Users can run this file to populate the database
-  - 
+
 ## Analysis of the vaccine distribution within Finnish healthcare system
 To analyze the dataset, we designed and solved 10 problems, each of which reveals different patterns and correlations in the distribution of Covid-19 vaccines within the Finnish healthcare system. The design of 10 problems can be accessed via ''. The code implementation for these problem can be accessed via ''
 
