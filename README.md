@@ -66,7 +66,18 @@ status from problem 5 and the columns are the age groups.
 Problem 7: Create a dataframe for symptoms with three additional columns: ’V01’, ’V02’, and ’V03’. The columns should tell the relative frequency of the symptom with the following values:
 
 ≥ 0.1: ”very common”; ≥ 0.05: ”common”; > 0.0: ”rare”; 0.0: ”-”
+  -  One can identify which are the most common symptoms among patients after they receive certain type of vaccines. 
+  -  One can also identify which symptoms are not due to vaccines, which can help with treatment plans.
 
+Problem 8: Estimate the amount of vaccines (as a percentage) that should be reserved for each vaccination to minimize waste.
+
+Problem 9: Plot the total number of vaccinated patients with respect to date
+
+Problem 10: Suppose that we found out that the nurse with ssNo
+”19740919-7140” has been tested positive for corona on
+15.5.2021. This problem aims to find out the social security numbers and
+names of the patients and staff members that the nurse may
+have met in vaccination events in the past 10 days. 
 
 
 
