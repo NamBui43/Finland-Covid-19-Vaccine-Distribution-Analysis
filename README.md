@@ -65,10 +65,7 @@ status from problem 5 and the columns are the age groups.
 
 Problem 7: Create a dataframe for symptoms with three additional columns: ’V01’, ’V02’, and ’V03’. The columns should tell the relative frequency of the symptom with the following values:
 
-≥ 0.1 ”very common”; 
-≥ 0.05 ”common”;
-> 0.0 ”rare”;
-0.0 ”-”
+≥ 0.1: ”very common”; ≥ 0.05: ”common”; > 0.0: ”rare”; 0.0: ”-”
 
 
 
