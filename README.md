@@ -29,7 +29,7 @@ For populating the database with the data in the dataset, we split the task into
   - In folder 'code', 'table_creation.py' connects to user's PostgreSQL database and populates the tables in the database with CSV files created by the file 'data_preprocessing.py' above. Users can run this file to populate the database
 
 ## Analysis of the vaccine distribution within Finnish healthcare system
-To analyze the dataset, we designed and solved 10 problems, each of which reveals different patterns and correlations in the distribution of Covid-19 vaccines within the Finnish healthcare system. The code implementation for these problem can be accessed via 'data_analysis.ipynb' in folder 'data'.
+To analyze the dataset, we designed and solved 10 problems, each of which reveals different patterns and correlations in the distribution of Covid-19 vaccines within the Finnish healthcare system. The code implementation for these problems can be accessed via 'data_analysis.ipynb' in folder 'data'.
 
 Problem 1: Create a dataframe for patients and symptoms containing the following columns: (1) ssNO, (2) gender, (3) dateOfBirth, (4)symptom, (5) diagnosisDate. Create a table named ”PatientSymptoms” using the command to sql with options index = True, if exists = "replace".
   -  Based on this dataframe, one can analyze patterns related to gender, age, symptoms reported, and the dates when these symptoms occurred
