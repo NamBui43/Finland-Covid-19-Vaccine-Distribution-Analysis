@@ -79,6 +79,13 @@ Problem 10: Suppose that we found out that the nurse with ssNo
 names of the patients and staff members that the nurse may
 have met in vaccination events in the past 10 days. 
 
+## Requirements
+The code for this project was written in Python 3.8 and requires the following libraries:
+  -  psycopg2
+  -  sqlalchemy
+  -  pandas
+  -  numpy
+
 
 
 
