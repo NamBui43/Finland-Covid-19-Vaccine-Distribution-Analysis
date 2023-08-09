@@ -86,6 +86,15 @@ The code for this project was written in Python 3.8 and requires the following l
   -  pandas
   -  numpy
 
+## Usage
+Follow these steps to run the code for this project:
+  -  Clone the repository
+  -  Run pip install -r ./code/requirements.txt command in the shell.
+  -  Run code/table_creation.py (fill in your PostgreSQL credentials and connect to your local database before executing)
+  -  Run data/data_preprocessing.py 
+  -  Run code/table population.py to populate the tables in your local database (fill in your PostgreSQL credentials before executing)
+  -  Run the Jupyter Notebook file data/data_analysis.ipynb.
+
 
 
 
