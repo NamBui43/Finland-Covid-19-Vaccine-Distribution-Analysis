@@ -27,25 +27,17 @@ For creating the database, we create 2 files, 'table_creation.sql' and 'table_cr
 For populating the database with the data in the dataset, we split the task into several files:
   - In folder 'data', 'data_preprocessing.py' handles the data cleaning process and splits each sub_dataset in the dataset into a seperate csv file. 
   - In folder 'code', 'table_creation.py' connects to user's PostgreSQL database and populates the tables in the database with CSV files created by the file 'data_preprocessing.py' above. Users can run this file to populate the database
-
-We implemented the database using PostgreSQL instead of SQLite, as PostgreSQL DBMS is widely adopted in real-world projects, and offers
-broader control over the database
-
+  - 
 ## Analysis of the vaccine distribution within Finnish healthcare system
-To analyze the dataset, we designed and solved 10 problems, each of which reveals different patterns and correlations in the distribution of Covid-19 vaccines within the Finnish healthcare system. 
+To analyze the dataset, we designed and solved 10 problems, each of which reveals different patterns and correlations in the distribution of Covid-19 vaccines within the Finnish healthcare system. The design of 10 problems can be accessed via ''. The code implementation for these problem can be accessed via ''
 
 Problem 1: Create a dataframe for patients and symptoms containing the following columns: (1) ssNO, (2) gender, (3) dateOfBirth, (4)symptom, (5) diagnosisDate. Create a table named ”PatientSymptoms” using the command to sql with options index = True, if exists = "replace".
   -  Based on this dataframe, one can analyze patterns related to gender, age, symptoms reported, and the dates when these symptoms occurred
   -  One could also explore correlations between specific symptoms and gender, or analyze the frequency of different symptoms over time
   -  Additionally, one could calculate statistics such as the average age and age range of individuals reporting specific symptoms, or identify any trends in the occurrence of symptoms
   
-Problem 2: Create a dataframe for patients and vaccines containing the
-following columns: (1) patientssNO, (2) date1, (3)
-vaccinetype1, (4) date2, (5) vaccinetype2. The attribute
-”date1” and ”date2” refer to the date when the first and/or
-second dose were given to a patient respectively. Similarly,
-”vaccinetype1” and ”vaccinetype2” are the type of vaccine
-used for the first and/or second dose.
+Problem 2: Create a dataframe for patients and vaccines containing the following columns: (1)patientssNO, (2)date1, (3)vaccinetype1, (4) date2, (5) vaccinetype2. The attribute ”date1” and ”date2” refer to the date when the first and/or second dose were given to a patient respectively. Similarly,
+”vaccinetype1” and ”vaccinetype2” are the type of vaccine used for the first and/or second dose.
   - Vaccination timeline: one can analyze the time intervals between the first and second doses for different vaccine types
   - Vaccine types: one can study the distribution of vaccine types used for the first and second doses and assess any changes in the type of vaccine administered as a second dose.
   - Double-dose vaccination rate: one can calculate the double-does vaccination rate and observe any trends
