@@ -22,14 +22,14 @@ Firstly, a comprehensive database system is designed and implemented to keep tra
 # Implementation of the database
 To gain clear understanding of each sub-dataset and the relations between them, we first construct an UML model, which can be accessed via 'UML.png'. The UML model is then turned into a relational schema, which can be accessed via 'relational_schema.pdf'.
 
-For creating the database, we create 2 files, 'table_creation.sql' and 'table_creation.py', which are located within folder 'code'. 
+For creating the database, we create 2 files, 'table_creation.sql' and 'table_creation.py', which are located within folder 'data_analysis'. 
 
 For populating the database with the data in the dataset, we split the task into several files:
-  - In folder 'data', 'data_preprocessing.py' handles the data cleaning process and splits each sub_dataset in the dataset into a seperate csv file. 
+  - In folder 'data_analysis', 'data_preprocessing.py' handles the data cleaning process and splits each sub_dataset in the dataset into a seperate csv file. 
   - In folder 'code', 'table_creation.py' connects to user's PostgreSQL database and populates the tables in the database with CSV files created by the file 'data_preprocessing.py' above. Users can run this file to populate the database
 
 # Analysis of the vaccine distribution within Finnish healthcare system
-To analyze the dataset, we designed and solved 10 problems, each of which reveals different patterns and correlations in the distribution of Covid-19 vaccines within the Finnish healthcare system. The code implementation for these problems can be accessed via 'data_analysis.ipynb' in folder 'data'.
+To analyze the dataset, we solve 10 complexed SQL queries, each of which reveals different patterns and correlations in the distribution of Covid-19 vaccines within the Finnish healthcare system. The code implementation for these problems can be accessed via 'data_analysis.ipynb' in folder 'data'.
 
 **Problem 1**: Create a dataframe for patients and symptoms containing the following columns: (1) ssNO, (2) gender, (3) dateOfBirth, (4)symptom, (5) diagnosisDate. Create a table named ”PatientSymptoms” using the command to sql with options index = True, if exists = "replace".
   -  Based on this dataframe, one can analyze patterns related to gender, age, symptoms reported, and the dates when these symptoms occurred
