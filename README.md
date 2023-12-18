@@ -23,8 +23,6 @@ Firstly, a comprehensive database system is designed and implemented to keep tra
 To gain clear understanding of each sub-dataset and the relations between them, we first construct an UML model, which can be accessed via 'UML.png'. The UML model is then turned into a relational schema, which can be accessed via 'relational_schema.pdf'.
 
 For creating the database, we create 2 files, 'table_creation.sql' and 'table_creation.py', which are located within folder 'code'. 
-  - 'table_creation.sql' contains the query for creating the tables in the database. Constraints of the tables are also included in this file. The tables here are created according the the relational schema created earlier.   
-  - 'table_creation.sql' contains the python code to connect to user's PostgreSQL database and execute the file 'table_creation.sql'. Users can run this file to create the tables within their databases.
 
 For populating the database with the data in the dataset, we split the task into several files:
   - In folder 'data', 'data_preprocessing.py' handles the data cleaning process and splits each sub_dataset in the dataset into a seperate csv file. 
