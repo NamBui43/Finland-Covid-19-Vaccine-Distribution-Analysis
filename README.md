@@ -19,7 +19,7 @@ The dataset used for this project can be accessed via 'vaccine-distribution-data
 
 Firstly, a comprehensive database system is designed and implemented to keep track of all datapoints in the 12 sub-datasets. Subsequently, an in-depth analysis was performed on 5 sub-datasets, including StaffMembers, Patients, VaccinePatients, Symptoms, and Diagnosis to uncover important insights and patterns within the Finnish healthcare system. 
 
-## Implementation of the database
+# Implementation of the database
 To gain clear understanding of each sub-dataset and the relations between them, we first construct an UML model, which can be accessed via 'UML.png'. The UML model is then turned into a relational schema, which can be accessed via 'relational_schema.pdf'.
 
 For creating the database, we create 2 files, 'table_creation.sql' and 'table_creation.py', which are located within folder 'code'. 
