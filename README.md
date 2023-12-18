@@ -10,7 +10,7 @@ During the Covid pandemic, the global vaccination campaign necessitates the impl
 
 The first goal of the project is to implement a database system for managing information about different entities involved in the production and distribution of vaccines. The database should be capable of following the entire lifecycle of a vaccine – from manufacturing, merged into a batch, through hospitals and clinics, to the hands of medical workers, and injected into the patient. The database should also be capable of storing health conditions of patients before and after vaccinations, such as symptomps and side-effects. 
 
-The second goal is to uncover and provide valuable insights into the vaccine distribution within the Finnish healthcare system using SQL queries.
+The second goal is to uncover and provide valuable insights into the vaccine distribution within the Finnish healthcare by solving 10 complexed SQL queries.
 
 By presenting a tangible case study of vaccine distribution in Finland, this project aims to provide a pragmatic demonstration of how data-driven approaches can optimize the management of healthcare resources, contribute to informed decision-making, and ultimately, advance public health outcomes.
 
